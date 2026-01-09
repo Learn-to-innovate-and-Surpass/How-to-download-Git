@@ -121,7 +121,12 @@ git push -u origin main
 
 <img width="1920" height="1032" alt="Editing How-to-download-Git_README md at main · Learn-to-innovate-and-Surpass_How-to-download-Git 和另外 7 个页面 - 个人 - Microsoft​ Edge 2026_1_9 22_35_04" src="https://github.com/user-attachments/assets/adda1790-6343-42b8-b4c6-56ff474451f1" />
 
-
+后续在添加文件
+```
+git add .
+git commit -m "added an exclamation mark"
+git push
+```
 ## 总结
 - 安装：访问官网或使用包管理器安装，安装后用 `git --version` 验证是否成功。  
 - 配置：使用 `git config --global user.name` 与 `git config --global user.email` 设置身份信息。  
