@@ -105,7 +105,16 @@ git remote add origin 你的仓库网址
 
 依次按行输入：
 ```bash
-git branch -m maingit fetch origin git rebase origin/main（注意：这个代码可能出现error: The following untracked working tree files would be overwritten by merge:        .vscode/BROWSE.VC.DB     请输入以下代码解决：     # 删除文件rm .vscode/BROWSE.VC.DB# 或者删除整个.vscode目录（如果不需要，与上行代码二选一）rm -rf .vscode# 继续rebasegit rebase --continue）git push -u origin main
+git branch -m main
+git fetch origin
+git rebase origin/main
+\#（注意：这个代码可能出现
+\#error: The following untracked working tree files would be overwritten by merge:
+\#     .vscode/BROWSE.VC.DB
+\# 请输入以下代码解决：
+\# 删除文件rm .vscode/BROWSE.VC.DB# 或者删除整个.vscode目录（如果不需要，与这行代码二选一）
+\#rm -rf .vscode# 继续rebasegit rebase --continue）
+git push -u origin main
 ```
 
 刷新仓库页面，成功
