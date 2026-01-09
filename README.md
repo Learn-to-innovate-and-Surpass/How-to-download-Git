@@ -120,3 +120,5 @@ git push -u origin main
 刷新仓库页面，成功
 
 <img width="1920" height="1032" alt="Editing How-to-download-Git_README md at main · Learn-to-innovate-and-Surpass_How-to-download-Git 和另外 7 个页面 - 个人 - Microsoft​ Edge 2026_1_9 22_35_04" src="https://github.com/user-attachments/assets/adda1790-6343-42b8-b4c6-56ff474451f1" />
+
+## 总结- 安装：访问官网或使用包管理器安装，安装后用 `git --version` 验证是否成功。  - 配置：使用 `git config --global user.name` 与 `git config --global user.email` 设置身份信息。  - 本地初始化与提交：在项目目录运行 `git init`，然后 `git add .` 和 `git commit -m "备注"` 完成本地版本记录。  - 推送到 GitHub：在 GitHub 新建仓库并复制仓库地址，使用 `git remote add origin <url>`、处理可能的 rebase/冲突后用 `git push -u origin main` 上传代码。  - 常见提示：Git 不跟踪空目录，如需保留可添加 `.gitkeep`；遇到权限或协作问题可通过 fork + PR 或请求有权限的合作者合并；遇到未跟踪文件覆盖问题可删除相应文件或目录后继续 rebase。
