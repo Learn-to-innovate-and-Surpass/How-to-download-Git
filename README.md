@@ -124,7 +124,7 @@ git push -u origin main
 后续在添加文件
 ```
 git add .
-git commit -m "added an exclamation mark"
+git commit -m "附上提交说明"
 git push
 ```
 ## 总结
